@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".java.VoiceActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/home_page_title_padding_top"
+        android:paddingBottom="@dimen/home_page_title_padding_bottom"
+        android:fontFamily="google-sans"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/home_page_title_size"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texttv"
+        android:paddingTop="@dimen/home_page_title_padding_top"
+        android:paddingBottom="@dimen/home_page_title_padding_bottom"
+        android:fontFamily="google-sans"
+        android:text="@string/app_intro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       />
+
+    <ImageButton
+        android:id="@+id/voicebtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_mic_"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+</RelativeLayout>
